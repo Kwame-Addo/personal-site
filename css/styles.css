@@ -10,7 +10,7 @@ h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   line-height: 2;
-  margin: 50px auto 0 auto;
+  margin: 10px auto 0 auto;
 }
 
 h2 {
@@ -106,8 +106,9 @@ a:hover {
 
 }
 .navbar-toggler {
-    padding-top: 2rem;
-
+    margin-top: 2rem;
+    color: #11999E;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .nav-link {
@@ -176,7 +177,7 @@ a:hover {
 
 .profile {
   text-align: center;
-  width: 30%;
+  width: 50%;
   margin: 0 auto 0 auto;
   line-height: 2;
   padding-bottom: 50px;
@@ -219,6 +220,7 @@ a:hover {
     font-size: 1.6em;
     padding-bottom: 5px;
     animation-delay: 5s;
+    text-align: left;
 }
 #portfolio .portfolio-title a:hover {
     color: #808080;
