@@ -107,15 +107,15 @@ a:hover {
 }
 .navbar-toggler {
     margin-top: 2rem;
-   height: 50px;
-    width: 60px;
+    height: 50px;
+    width: 90px;
     color: #11999E;
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .nav-link {
   font-family: "Montserrat-light";
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 
@@ -138,7 +138,9 @@ a:hover {
   line-height: 2;
   margin-bottom: 0;
 }
-
+.footer-link {
+    font-size: 1.2rem;
+}
 .top-cloud {
   position: absolute;
   right: 300px;
@@ -160,6 +162,7 @@ a:hover {
 
 .profile-picture {
   border-radius: 100%;
+    margin-bottom: 30px;
 }
 
 .web-design-image {
@@ -179,7 +182,7 @@ a:hover {
 
 .profile {
   text-align: center;
-  width: 50%;
+  width: 80%;
   margin: 0 auto 0 auto;
   line-height: 2;
   padding-bottom: 50px;
@@ -277,4 +280,62 @@ a:hover {
 .copyright {
   font-size: 0.75rem;
   color: #EAF6F6;
+}
+
+@media screen and (min-width: 414px){
+  .section-title {
+      font-size: 5em;
+  
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+
+/*----- 6.4 About Me Section
+--------------------------------------------------------------*/
+#about-me .intro {
+    margin-right: 60px;
+    margin-bottom: 70px;
+}
+#about-me article {
+    line-height: 2.5;
+    color: var(--body-text-color);;
+}
+#about-me .skill-chart ul {
+    text-transform: uppercase;
+    list-style: none;
+}
+#about-me .skill-chart li {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 40px;
+    width: 100%;
+}
+#about-me .skill-chart li span.skill {
+    display: block;
+    border-bottom: 3px solid #000;
+    padding-bottom: 24px;
+    margin-bottom: -2px;
+}
+.skill-chart li span.twenty-percent {
+  width: 20%; 
+}
+.skill-chart li span.thirty-percent {
+  width: 30%; 
+}
+.skill-chart li span.forty-percent {
+  width: 40%; 
+}
+.skill-chart li span.fifty-percent {
+  width: 50%; 
+}
+.skill-chart li span.sixty-percent {
+  width: 60%; 
+}
+.skill-chart li span.seventy-percent {
+  width: 70%; 
+}
+.skill-chart li span.eighty-percent {
+  width: 80%; 
 }
