@@ -17,13 +17,14 @@ h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  font-weight: normal;
+  font-weight: 900;;
   padding-bottom: 10px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
+    font-weight: 700;
 }
 
 hr {
@@ -174,7 +175,7 @@ a:hover {
 
 .diy-image {
   float: right;
-  width: 150px;
+  width: 25%;
     height: 150px;
   border-radius: 100%;
   margin-left: 30px;
@@ -338,4 +339,29 @@ a:hover {
 }
 .skill-chart li span.eighty-percent {
   width: 80%; 
+}
+   
+
+
+
+
+
+
+/*Software Design Skill chart*/
+.tab-content .skill-chart ul {
+    margin-top: 15px;
+    text-transform: uppercase;
+    list-style: none;
+    line-height: 1px
+}
+.tab-content .skill-chart li {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.tab-content .skill-chart li span.skill {
+    display: block;
+    border-bottom: 3px solid #000;
+    padding-bottom: 24px;
+    margin-bottom: -2px;
 }
