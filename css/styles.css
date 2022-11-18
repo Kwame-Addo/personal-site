@@ -1,0 +1,381 @@
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 10px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+    font-weight: 700;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+
+
+.section-header {
+    position: relative;
+}
+.section-header .title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-header .title>span {
+    border: 1px  #f8f8f8;
+    padding: 5px 10px;
+    background: #fff;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: darkblue;
+}
+
+.section-title {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62em;
+    line-height: 1;
+    font-weight: 50;
+     color: #66BFBF;
+}
+
+
+@media screen and (max-width: 700px){
+  .section-title {
+      font-size: 5em;
+  }
+}
+
+
+
+a {
+  color: #11999E;
+  font-size: small;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/* Navigation bar */
+.navbar {
+   padding: 0 0 4.5rem;
+    background-color:  #EAF6F6;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.3rem;
+  font-weight: bold;
+    padding: 2rem 0 0 2rem;
+
+}
+
+.nav-item {
+  padding-top: 3.2rem;
+    margin-right: 4.5rem;
+
+}
+.navbar-toggler {
+    margin-top: 2rem;
+    height: 50px;
+    width: 90px;
+    color: #11999E;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.6rem;
+}
+
+
+
+
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  padding: 50px 0 20px 0;
+  background-color: #66BFBF;
+  line-height: 2;
+  margin-bottom: 0;
+}
+.footer-link {
+    font-size: 1.2rem;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+
+@media screen and (max-width: 1000px){
+  .mySkills{
+      width: 100%;
+      margin: 0 10%;
+    }
+}
+
+.mySkills{
+
+}
+
+
+
+.profile-picture {
+  border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.web-design-image {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.diy-image {
+  float: right;
+  width: 160px;
+    height: 160px;
+  border-radius: 100%;
+  margin-left: 30px;
+}
+
+.profile {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+  padding-bottom: 50px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/*----- 6.5 Portfolio Section
+--------------------------------------------------------------*/
+#portfolio .portfolio-title {
+    padding: 20px 0 60px;
+    text-align: right;
+}
+#portfolio .portfolio-title a {
+    font-size: 1.6em;
+    padding-bottom: 5px;
+    animation-delay: 5s;
+    text-align: left;
+}
+#portfolio .portfolio-title a:hover {
+    color: #808080;
+    border-color: #808080;
+}
+#portfolio .portfolio-image {
+    width: 100%;
+    object-fit: cover;
+}
+#portfolio .portfolio-item img {
+    transition: transform 0.6s ease-out;
+}
+#portfolio .portfolio-item a {
+    display: block;
+    overflow: hidden;
+}
+#portfolio .portfolio-item a:hover img {
+    transform: scale(1.1);
+}
+#portfolio .portfolio-image.large-image {
+    height: 700px;
+}
+#portfolio .portfolio-image.medium-image {
+    height: 550px;
+}
+#portfolio .portfolio-image.small-image {
+    height: 400px;
+}
+
+#portfolio {
+    background-color: #EAF6F6;
+}
+
+
+
+
+
+
+.contact-me {
+  line-height: 2;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+  width: 30%;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: #EAF6F6;
+}
+
+@media screen and (min-width: 414px){
+  .section-title {
+      font-size: 5em;
+  
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+
+/*----- 6.4 About Me Section
+--------------------------------------------------------------*/
+#about-me .intro {
+    margin-right: 60px;
+    margin-bottom: 70px;
+}
+#about-me article {
+    line-height: 2.5;
+    color: var(--body-text-color);;
+}
+#about-me .skill-chart ul {
+    text-transform: uppercase;
+    list-style: none;
+}
+#about-me .skill-chart li {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 40px;
+    width: 100%;
+}
+#about-me .skill-chart li span.skill {
+    display: block;
+    border-bottom: 3px solid #000;
+    padding-bottom: 24px;
+    margin-bottom: -2px;
+}
+.skill-chart li span.twenty-percent {
+  width: 20%; 
+}
+.skill-chart li span.thirty-percent {
+  width: 30%; 
+}
+.skill-chart li span.forty-percent {
+  width: 40%; 
+}
+.skill-chart li span.fifty-percent {
+  width: 50%; 
+}
+.skill-chart li span.sixty-percent {
+  width: 60%; 
+}
+.skill-chart li span.seventy-percent {
+  width: 70%; 
+}
+.skill-chart li span.eighty-percent {
+  width: 80%; 
+}
+   
+
+
+
+
+
+
+/*Software Design Skill chart*/
+.tab-content .skill-chart ul {
+    margin-top: 15px;
+    text-transform: uppercase;
+    list-style: none;
+    line-height: 1px
+}
+.tab-content .skill-chart li {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.tab-content .skill-chart li span.skill {
+    display: block;
+    border-bottom: 3px solid #000;
+    padding-bottom: 24px;
+    margin-bottom: -2px;
+}
