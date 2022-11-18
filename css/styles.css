@@ -161,6 +161,20 @@ a:hover {
 
 }
 
+
+@media screen and (max-width: 1000px){
+  .mySkills{
+      width: 100%;
+      margin: 0 5%;
+    }
+}
+
+.mySkills{
+
+}
+
+
+
 .profile-picture {
   border-radius: 100%;
     margin-bottom: 30px;
