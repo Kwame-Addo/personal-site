@@ -191,6 +191,7 @@ height: 19rem;
 }
 
 .expertise-cols1, .expertise-cols2 {
+  visibility: hidden;
   transform: translateX(-100%);
   transition: transform 0.5s ease-in-out;
 }
