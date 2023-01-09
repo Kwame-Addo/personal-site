@@ -1,6 +1,7 @@
 html{
   color-scheme: dark light;
 }
+
 body {
   color: #40514E;
   font-family: 'Merriweather', serif;
@@ -133,7 +134,28 @@ a:hover {
     background-repeat: no-repeat;
     background: contain;
 }
+.back-to-top {
+  background-color: #11999E;
+  border-radius: 50%;
+  bottom: 20px;
+  cursor: pointer;
+  display: none;
+  height: 50px;
+  position: fixed;
+  right: 20px;
+  width: 50px;
+  z-index: 10;
+}
 
+.back-to-top:hover {
+  background-color: #66BFBF;
+}
+
+.back-to-top i {
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 50px;
+}
 .middle-container {
   margin: 100px 0;
 }
