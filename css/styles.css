@@ -229,6 +229,11 @@ height: 19rem;
       margin: 2rem auto;
     }
 }
+@media screen and (max-width: 1024px){
+  .expertise-cols1, .expertise-cols2{
+      margin: 2rem auto;
+    }
+}
 
 .expertise-header{
 height: 8rem;
