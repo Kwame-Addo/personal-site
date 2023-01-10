@@ -223,7 +223,16 @@ height: 19rem;
 
 .expertise-cols1.visible, .expertise-cols2.visible {
   transform: translateX(0);
+  transform: scale(1);
+  transition: transform 0.5s ease;
+  box-shadow: none;
+    transition: box-shadow 0.5s ease;
 }
+.expertise-cols1.visible:hover, .expertise-cols2.visible:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 20px #000;
+}
+
 @media screen and (max-width: 1000px){
   .expertise-cols1, .expertise-cols2{
       margin: 2rem auto;
@@ -373,9 +382,8 @@ height: 8rem;
 
 /*----- 6.4 About Me Section
 --------------------------------------------------------------*/
-#about-me .intro {
-    margin-right: 60px;
-    margin-bottom: 70px;
+#about-me .skill-row{
+background-color:  #EAF6F6;
 }
 #about-me article {
     line-height: 2.5;
@@ -416,31 +424,4 @@ height: 8rem;
 }
 .skill-chart li span.eighty-percent {
   width: 80%; 
-}
-   
-
-
-
-
-
-
-/*Software Design Skill chart*/
-
-
-.tab-content .skill-chart ul {
-    margin-top: 30px;
-    text-transform: uppercase;
-    list-style: none;
-    line-height: 1px
-}
-.tab-content .skill-chart li {
-    border-bottom: 1px solid #dbdbdb;
-    margin-bottom: 40px;
-    width: 100%;
-}
-.tab-content .skill-chart li span.skill {
-    display: block;
-    border-bottom: 3px solid #000;
-    padding-bottom: 2px;
-    margin-bottom: -2px;
 }
