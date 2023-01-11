@@ -225,12 +225,9 @@ height: 19rem;
   transform: translateX(0);
   transform: scale(1);
   transition: transform 0.5s ease;
-  box-shadow: none;
-    transition: box-shadow 0.5s ease;
 }
 .expertise-cols1.visible:hover, .expertise-cols2.visible:hover {
   transform: scale(1.2);
-  box-shadow: 0px 0px 20px #000;
 }
 
 @media screen and (max-width: 1000px){
