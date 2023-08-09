@@ -76,7 +76,7 @@
       <img class="profile-picture"src="images/Kwame.jpg" alt="">
         
    
-        
+      </div>
       
 	<section id="about-me" class="margin-large">
 			<div class="section-header align-center">
@@ -85,7 +85,7 @@ Who Am I?</span></div>
 				<h2 class="section-title">About ME</h2>
 			</div>
 	
-	 <div class="row">
+	 <div style="width: 80%; margin: auto" class="row">
 
         <div class="col-lg-6 skill-row">
          <article>
@@ -126,7 +126,7 @@ Who Am I?</span></div>
         
         
       <section id="skills">
-    </div>
+  
     <hr>
     <div class="skills">
 <div class="container">
@@ -137,6 +137,7 @@ Who Am I?</span></div>
 			</div>
 		</div>
 	</div>
+          </div>
     <div class="container">
 		<div class="row">
 			<div class="col-lg-4 col-md-12 expertise-cols1">	
@@ -205,15 +206,15 @@ Who Am I?</span></div>
 		<div class="row">
 			<div class="col-md-6">
 				<figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
-					<a href="images/church-logo1.jpeg" class="image-link"><img src="images/church-logo1.jpeg" class="portfolio-image large-image"></a>
+					<a href="images/church-logo1.jpg" class="image-link"><img src="images/church-logo1.jpg" class="portfolio-image large-image"></a>
 					<figcaption class="portfolio-title">
 						<a href="https://kwame-addo.github.io/Church-website/index.html">RVFCI Church Website</a>
 					</figcaption>
 				</figure>
 				<figure data-aos="fade-zoom-in" data-aos-delay="300" class="portfolio-item">
-					<a href="images/repository-logo.PNG" class="image-link"><img src="images/repository-logo.PNG" class="portfolio-image medium-image"></a>
+					<a href="images/repository-logo.jpg" class="image-link"><img src="images/repository-logo.jpg" class="portfolio-image medium-image"></a>
 					<figcaption class="portfolio-title">
-						<a href="#">Project Report Repository</a>
+						<a href="https://kwame-addo.github.io/project-repository-/">Project Report Repository</a>
 					</figcaption>
 				</figure>
 				<figure data-aos="fade-zoom-in" data-aos-delay="0" class="portfolio-item">
@@ -237,9 +238,9 @@ Who Am I?</span></div>
 					</figcaption>		
 				</figure>
 				<figure data-aos="fade-zoom-in" data-aos-delay="300" class="portfolio-item">
-					<a href="images/dice6.png" class="image-link"><img src="images/dice6.png" class="portfolio-image large-image"></a>
+					<a href="images/elite-manager.jpg" class="image-link"><img src="images/elite-manager.jpg" class="portfolio-image large-image"></a>
 					<figcaption class="portfolio-title">
-						<a href="#">Dice Game</a>
+						<a href="#">Elite School Management Website</a>
 					</figcaption>
 				</figure>
 			</div>	
@@ -266,7 +267,7 @@ Who Am I?</span></div>
     <a class="footer-link" href="https://github.com/Kwame-Addo"><i class="fa-brands fa-github"></i></a>
     <a class="footer-link" href="https://twitter.com/k0addo"><i class="fa-brands fa-twitter"></i></a>
      <a class="footer-link" href="https://www.hackerrank.com/koaddo1"><i class="fa-brands fa-hackerrank"></i></a>
-    <p class="copyright">©2023 Kwame Addo.</p>
+					  <p class="copyright"> <a style="padding-bottom: 3px;" href="https://kwame-addo.github.io/personal-site/">Kwame</a>&copy; <span id="copyrightYear"></span> All rights reserved </p>
   </div>
 
 
@@ -275,6 +276,12 @@ Who Am I?</span></div>
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
 <script src="js/skills.js"></script>
+    <script>
+     const currentYear = new Date().getFullYear();
+  const copyrightYear = document.getElementById("copyrightYear");
+  copyrightYear.textContent = currentYear;</script>
+
+          
 </body>
 
 </html>
